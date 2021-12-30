@@ -7,6 +7,10 @@ body {
     color: #1e1e2a;
 }
 
+.color-items {
+    color: rgb(7, 162, 223);
+}
+
 /* HEADER */
 
 .header-container {
@@ -27,12 +31,13 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 55px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
 h2 {
+    font-size: 35px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -40,6 +45,8 @@ h2 {
 .social-media {
     margin-top: 1rem;
     display: flex;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .social-media a {
@@ -114,7 +121,6 @@ a:hover {
 }
 
 
-
 /* Menu */
 
 .menu {
@@ -143,13 +149,14 @@ a:hover {
     opacity: 0;
     visibility: hidden;
     transition: 400ms ease-in-out 0s;
+    font-size: 80px;
 }
 
 .menu-items ul {
     list-style-type: none;
 }
 
-menuitem ul li a {
+.menuitem ul li a {
     margin: 10px 0;
     color: #1e1e2a;
     text-decoration: nome;
