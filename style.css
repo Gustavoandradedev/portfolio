@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
 
 body {
+    width: 100vw;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     color: #1e1e2a;
+    background-color:  rgb(7, 162, 223);
 }
 
 .color-items {
@@ -20,14 +22,34 @@ body {
     background-image: url('./imagens/escudo.png');
     background-repeat: no-repeat;
     background-position: right;
-    background-size: contain;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     box-sizing: border-box;
     padding: 0 112px;
     position: relative;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .header-container .social-media{
+        width: 33,3%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-container .social-media{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header-container .social-media{
+        width: 100%;
+    }
 }
 
 h1 {
@@ -47,6 +69,7 @@ h2 {
     display: flex;
     font-weight: bold;
     font-size: 20px;
+    flex-wrap: wrap;
 }
 
 .social-media a {
@@ -59,6 +82,9 @@ h2 {
     align-items: center;
     justify-content: center;
     transition: .5s ease-in-out;
+    max-width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 a:hover {
@@ -245,6 +271,7 @@ a:hover {
 
 .card-text {
     width: 40%;
+    font-size: 30px;
     letter-spacing: 1px;
     color: rgb(109, 109, 109 );
 }
