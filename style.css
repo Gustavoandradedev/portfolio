@@ -21,7 +21,7 @@ body {
     background-color: rgb(7, 162, 223);
     background-image: url('./imagens/escudo.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom 47px right 80px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -72,8 +72,9 @@ h2 {
     flex-wrap: wrap;
 }
 
+
 .social-media a {
-    text-decoration: nome;
+    text-decoration: none;
     color: #1e1e2a;
     padding: 1rem 4rem;
     border: 1px solid #1e1e2a;
@@ -85,10 +86,17 @@ h2 {
     max-width: 100%;
     align-items: center;
     flex-wrap: wrap;
+    border-radius: 30px;
 }
 
 a:hover {
-    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.info{
+    text-align: center;
+    margin: 100px;
+    font-size: 50px;
 }
 
 /* Menu lateral (direita) */
@@ -259,7 +267,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color:  rgb(7, 162, 223);
-    background-image: url('./imagens/gus.png');
+    background-image: url('./imagens/ds.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -273,7 +281,7 @@ a:hover {
     width: 40%;
     font-size: 30px;
     letter-spacing: 1px;
-    color: rgb(109, 109, 109 );
+    color: rgb(0, 0, 0);
 }
 
 .card-wrapper {
@@ -303,15 +311,17 @@ a:hover {
     letter-spacing: 4px;
     margin: 0;
     transition: 0.5s ease-in-out;
+    color: rgb(255, 0, 0);
+    text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 .card-wrapper p {
-    font-size: 0;
+    font-size: 10px;
     visibility: visible;
     opacity: 0;
     font-weight: bold;
     text-transform: uppercase;
-    transition: 0.5s ease-in-out;
+    transition: 0.6s ease-in-out;
 }
 
 .card:hover {
@@ -327,7 +337,107 @@ a:hover {
 .card:hover > .card-wrapper p {
     opacity: 1;
     visibility: visible;
-    font-size: 14px;
+    font-size: 40px;
+}
+
+/* CARD PROJETO DS DELIVER */
+.container1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+}
+
+.card-container1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color:  rgb(7, 162, 223);
+}
+
+.card1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(7, 162, 223);
+    background-image: url('./imagens/deliver.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1e1e2a;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card-text1 {
+    width: 40%;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.card-wrapper1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-wrapper1::before {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid #ffffff;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card-wrapper1 h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 0, 0);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.card-wrapper1 p {
+    font-size: 10px;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.6s ease-in-out;
+}
+
+.card1:hover {
+    filter: unset;
+}
+
+.card1:hover > .card-wrapper1::before {
+    height: 250px;
+    width: 250px;
+    opacity: 1;
+}
+
+.card1:hover > .card-wrapper1 p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 40px;
 }
 
 /* Footer*/
