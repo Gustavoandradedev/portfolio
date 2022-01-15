@@ -6,7 +6,7 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     color: #1e1e2a;
-    background-color:  rgb(7, 162, 223);
+    background-color: rgb(7, 162, 223);
 }
 
 .color-items {
@@ -35,19 +35,19 @@ body {
 
 
 @media screen and (max-width: 1024px) {
-    .header-container .social-media{
-        width: 33,3%;
+    .header-container .social-media {
+        width: 33, 3%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .header-container .social-media{
+    .header-container .social-media {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 580px) {
-    .header-container .social-media{
+    .header-container .social-media {
         width: 100%;
     }
 }
@@ -74,7 +74,7 @@ h2 {
 
 
 .social-media a {
-    text-decoration: none;
+    text-decoration: nome;
     color: #1e1e2a;
     padding: 1rem 4rem;
     border: 1px solid #1e1e2a;
@@ -89,11 +89,21 @@ h2 {
     border-radius: 30px;
 }
 
+a.custom:hover {
+    text-decoration: none;
+    background-color: rgb(7, 162, 223);
+}
+
 a:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+a {
     text-decoration: none;
 }
 
-.info{
+.info {
     text-align: center;
     margin: 100px;
     font-size: 50px;
@@ -110,7 +120,7 @@ a:hover {
 .checkbox {
     height: 100px;
     width: 100px;
-    position: absolute ;
+    position: absolute;
     right: 0;
     top: 0;
     display: flex;
@@ -118,7 +128,7 @@ a:hover {
     cursor: pointer;
     z-index: 9999;
     transition: 400ms ease-in-out 0s;
-    
+
 }
 
 .checkbox .trace {
@@ -197,23 +207,23 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 40px;
-} 
+}
 
 /* Animação do menu */
 
-#toggle:checked + .checkbox .trace:nth-child(1) {
+#toggle:checked+.checkbox .trace:nth-child(1) {
     transform: rotate(45deg);
     top: 47px;
 }
 
-#toggle:checked + .checkbox .trace:nth-child(2) {
+#toggle:checked+.checkbox .trace:nth-child(2) {
     transform: translate(100px);
     width: 30px;
     visibility: hidden;
     opacity: 0;
 }
 
-#toggle:checked + .checkbox .trace:nth-child(3) {
+#toggle:checked+.checkbox .trace:nth-child(3) {
     transform: rotate(-45deg);
     top: 48px;
 }
@@ -225,16 +235,16 @@ a:hover {
 }
 */
 
-#toggle:checked + .checkbox {
+#toggle:checked+.checkbox {
     background-color: #ffffff;
 }
 
-#toggle:checked ~ .menu {
+#toggle:checked~.menu {
     box-shadow: 0px 0px 0px 100vmax #ffffff;
     z-index: 1;
 }
 
-#toggle:checked ~ .menu-items {
+#toggle:checked~.menu-items {
     visibility: visible;
     opacity: 1;
 }
@@ -255,7 +265,7 @@ a:hover {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    background-color:  rgb(7, 162, 223);
+    background-color: rgb(7, 162, 223);
 }
 
 .card {
@@ -266,7 +276,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  rgb(7, 162, 223);
+    background-color: rgb(7, 162, 223);
     background-image: url('./imagens/ds.png');
     background-position: center;
     background-size: cover;
@@ -328,13 +338,13 @@ a:hover {
     filter: unset;
 }
 
-.card:hover > .card-wrapper::before {
+.card:hover>.card-wrapper::before {
     height: 250px;
     width: 250px;
     opacity: 1;
 }
 
-.card:hover > .card-wrapper p {
+.card:hover>.card-wrapper p {
     opacity: 1;
     visibility: visible;
     font-size: 40px;
@@ -355,7 +365,7 @@ a:hover {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    background-color:  rgb(7, 162, 223);
+    background-color: rgb(7, 162, 223);
 }
 
 .card1 {
@@ -366,7 +376,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  rgb(7, 162, 223);
+    background-color: rgb(7, 162, 223);
     background-image: url('./imagens/deliver.png');
     background-position: center;
     background-size: cover;
@@ -428,17 +438,48 @@ a:hover {
     filter: unset;
 }
 
-.card1:hover > .card-wrapper1::before {
+.card1:hover>.card-wrapper1::before {
     height: 250px;
     width: 250px;
     opacity: 1;
 }
 
-.card1:hover > .card-wrapper1 p {
+.card1:hover>.card-wrapper1 p {
     opacity: 1;
     visibility: visible;
     font-size: 40px;
 }
+
+/* BLOG */
+
+p.p-blog {
+    width: 40%;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 60%;
+}
+
+.img-fluig{
+    position: relative;
+    left: 35%;
+    top: -40px;
+    margin-left: -370px;
+    margin-top: -50px;
+    padding-bottom: 70px;
+    background-size: 300px 150px;
+}
+
+.sec{
+    background-color: black;
+    height: 100%;
+}
+
 
 /* Footer*/
 
@@ -451,16 +492,3 @@ a:hover {
     justify-content: center;
     color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
