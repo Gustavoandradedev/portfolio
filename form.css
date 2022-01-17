@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #1e1e2a;
+    background-color: rgb(7, 162, 223);
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(7, 162, 223);
+}
+
+.formulario {
+    display: block;
+    justify-content: center;
+}
+
+.tittle-form {
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+
+}
+
+form .table-info {
+    border-radius: 10px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    box-shadow: 5px 5px 15px #000000;
+    padding: 1.5rem;
+
+}
+
+form .table-info {
+    display: grid;
+    flex-direction: column;
+}
+
+form .table-info label {
+    margin-top: 1.5rem;
+    color: #000000;
+}
+
+form .table-info input {
+    height: 2rem;
+    font-size: 19px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 1rem;
+}
+
+/* -------------------------------------- */
+
+
+
+form .table-despesas {
+    border-radius: 10px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    box-shadow: 5px 5px 15px #000000;
+    padding: 1.5rem;
+}
+
+form .table-despesas {
+    display: grid;
+    flex-direction: column;
+    margin-left: 3.2rem;
+    margin-right: 3rem;
+}
+
+form .table-despesas label {
+    margin-top: 1.5rem;
+    color: #000000;
+}
+
+form .table-despesas input {
+    height: 2rem;
+    font-size: 19px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+form .table-categorias {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+
+form .table-categorias button {
+    width: 2.5rem;
+    height: 2rem;
+    background: #d45757;
+    border-color: #d45757;
+    color: #ffff;
+    margin-right: .5rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form .table-categorias select {
+    height: 2rem;
+    margin-right: 1.3rem;
+    font-size: 15px;
+    background: #ffff;
+    border: 1px solid #989898;
+    border-radius: 10px;
+    height: 2rem;
+    font-size: 15px;
+    border: 1px solid #989898;
+    border-radius: 10px;
+}
+
+form .title-despesas .cat {
+    margin-left: 3rem;
+    margin-right: 16rem;
+    width: 100%;
+}
+
+form .title-despesas .desc {
+    margin-left: -8rem;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+form .title-despesas .valor-uni {
+    margin-left: 11rem;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+form .title-despesas .qtn {
+    margin-left: 10rem;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+form .title-despesas .valor-t {
+    margin-left: 10rem;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+form .buttom-incluir {
+    background-color: greenyellow;
+    margin-left: 75rem;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form .total-geral input {
+    width: 11rem;
+    height: 2.9rem;
+    margin-top: -10rem;
+    margin-left: 61rem;
+    font-size: 13px;
+    padding-left: 1rem;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+
+form h2 {
+    margin-left: 51rem;
+    margin-bottom: -1rem;
+    margin-top: 1rem;
+}
+
+.social-media {
+    margin-top: 1rem;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.social-media a {
+    text-decoration: nome;
+    color: #1e1e2a;
+    padding: 1rem 4rem;
+    border: 1px solid #1e1e2a;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+    max-width: 100%;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+}
+
+
+a.custom:hover {
+    text-decoration: none;
+    background-color: rgb(7, 162, 223);
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+}
+.teste{
+    background-color: #C4C4C4;
+}
+
+.teste1{
+    background-color: #EEB764;
+}
+
+.teste2{
+    background-color: #D45757;
+}
+
+.teste3{
+    background-color:#71AA70;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+/* ------------------------------------ */
+
+.header-container {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(7, 162, 223);
+    background-repeat: no-repeat;
+    background-position: bottom 47px right 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999;
+    transition: 400ms ease-in-out 0s;
+
+}
+
+.checkbox .trace {
+    width: 50px;
+    height: 5px;
+    background-color: #1e1e2a;
+    position: absolute;
+    border-radius: 4px;
+    transition: 0.5s ease-in-out;
+}
+
+.checkbox .trace:nth-child(1) {
+    top: 26px;
+    transform: rotate(0);
+}
+
+.checkbox .trace:nth-child(2) {
+    top: 46px;
+    transform: rotate(0);
+}
+
+.checkbox .trace:nth-child(3) {
+    top: 66px;
+    transform: rotate(0);
+}
+
+.checkbox .trace:nth-child(4) {
+    top: 86px;
+    transform: rotate(0);
+}
+
+#toggle {
+    display: nome;
+}
+
+.menu {
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    background-color: transparent;
+    height: 4px;
+    width: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+    z-index: -1;
+    transition: 400ms ease-in-out 0s;
+}
+
+.menu-items {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms ease-in-out 0s;
+    font-size: 56px;
+}
+
+.menu-items ul {
+    list-style-type: none;
+}
+
+.menuitem ul li a {
+    margin: 10px 0;
+    color: rgb(7, 162, 223);
+    text-decoration: nome;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+/* Animação do menu */
+
+#toggle:checked+.checkbox .trace:nth-child(1) {
+    transform: rotate(45deg);
+    top: 47px;
+}
+
+#toggle:checked+.checkbox .trace:nth-child(2) {
+    transform: translate(100px);
+    width: 30px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#toggle:checked+.checkbox .trace:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 48px;
+}
+
+#toggle:checked+.checkbox {
+    background-color: #ffffff;
+}
+
+#toggle:checked~.menu {
+    box-shadow: 0px 0px 0px 100vmax #ffffff;
+    z-index: 1;
+}
+
+#toggle:checked~.menu-items {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
