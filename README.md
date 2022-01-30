@@ -9,4 +9,17 @@ Esse portfólio foi desenvolvido no evento START que é uma iniciativa da TOTVS 
 cujo objetivo é contribuir com a carreira de pessoas apaixonadas pelo universo da tecnologia, promovendo capacitação na área de negócios e desenvolvimento.
 
 ## Layout web 
+![Modelo Conceitual](https://raw.githubusercontent.com/Gustavoandradedev/portfolio/main/port.png)
+
+## Front end
+- HTML / CSS
+
+##  Implantação em produção
+- github-pages
+
+# Autor 
+
+👨‍🎓: Gustavo Nascimento Andrade
+
+https://www.linkedin.com/in/gustavo-nascimento-andrade-5504aa201/
 
